@@ -18,8 +18,8 @@
 #'   mixture_file <- system.file("extdata", "example.txt", package = "MELODY")
 #'   results <- MELODY(sig_matrix, mixture_file)
 #'   ## example 2
-#'   data(blood_signature.txt)
-#'   data(example.txt)
+#'   data(blood_signature)
+#'   data(example)
 #'   results <- MELODY(sig_matrix = blood_signature, mixture_file = example)
 #' }
 
