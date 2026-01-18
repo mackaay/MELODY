@@ -19,7 +19,7 @@ Example
 library(e1071)
 library(furrr)
 library(MELODY)
-data(blood_signature)
-data(example)
+data("blood_signature")
+data("example")
 results <- MELODY(sig_matrix = blood_signature, mixture_file = example)
 ```
