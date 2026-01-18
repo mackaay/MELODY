@@ -10,8 +10,8 @@ You can install the released version of MELODY from github with:
 install.packages("devtools")
 devtools::install_github("mackaay/MELODY")
 
-library(e1071)
-library(furrr)
+install.packages("e1071")
+install.packages("furrr")
 ```
 
 Example
